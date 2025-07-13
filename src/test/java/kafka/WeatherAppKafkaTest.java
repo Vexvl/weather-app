@@ -1,4 +1,4 @@
-package Kafka;
+package kafka;
 
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.junit.jupiter.api.Test;
