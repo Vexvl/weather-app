@@ -8,11 +8,11 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 public class WeatherAnalyticsDto {
-    private String city;
-    private long sunnyDays;
-    private long rainyDays;
-    private long cloudyDays;
-    private double minTemperature;
-    private double maxTemperature;
-    private double averageTemperature;
+    private final String city;
+    private final long sunnyDays;
+    private final long rainyDays;
+    private final long cloudyDays;
+    private final double minTemperature;
+    private final double maxTemperature;
+    private final double averageTemperature;
 }

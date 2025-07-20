@@ -8,18 +8,18 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 public class WeatherSummaryDto {
-    private String mostRainyCity;
-    private String mostSunnyCity;
-    private String mostCloudyCity;
-    private String hottestDay;
-    private String coldestDay;
-    private String cloudiestDay;
-    private String hottestAverageCity;
-    private String coldestAverageCity;
-    private String cloudiestAverageCity;
-    private long totalRainyDays;
-    private long totalSunnyDays;
-    private long totalCloudyDays;
-    private long totalMeasurements;
-    private double averageTemperature;
+    private final String mostRainyCity;
+    private final String mostSunnyCity;
+    private final String mostCloudyCity;
+    private final String hottestDay;
+    private final String coldestDay;
+    private final String cloudiestDay;
+    private final String hottestAverageCity;
+    private final String coldestAverageCity;
+    private final String cloudiestAverageCity;
+    private final long totalRainyDays;
+    private final long totalSunnyDays;
+    private final long totalCloudyDays;
+    private final long totalMeasurements;
+    private final double averageTemperature;
 }
